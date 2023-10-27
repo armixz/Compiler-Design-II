@@ -1,0 +1,10 @@
+class x {
+	void main() {
+		char y;
+		bool z = (~ y);
+	}
+}
+
++-------+
+| ERROR | type='BOOL' expected for unary logical operators.
++-------+

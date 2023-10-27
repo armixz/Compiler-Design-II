@@ -1,0 +1,13 @@
+class x {
+	int main() {
+		float y;
+		while ((y || y))
+			return 1;
+
+		return 0;
+	}
+}
+
++-------+
+| ERROR | binary operator='||' does not accept type='FLOAT'.
++-------+

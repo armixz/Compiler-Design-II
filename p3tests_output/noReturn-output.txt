@@ -1,0 +1,8 @@
+class x {
+	int main() {
+	}
+}
+
++-------+
+| ERROR | return statement required for function='main'.
++-------+

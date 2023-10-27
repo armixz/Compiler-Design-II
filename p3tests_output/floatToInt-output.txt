@@ -1,0 +1,9 @@
+class x {
+	void main() {
+		int i = 1.0;
+	}
+}
+
++-------+
+| ERROR | lhs type='INT' does not match rhs type='FLOAT'.
++-------+

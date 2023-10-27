@@ -1,0 +1,9 @@
+class x {
+	void main() {
+		bool y = ( 1.0 ? true : false );
+	}
+}
+
++-------+
+| ERROR | condition type='FLOAT' is not coercible to type='BOOL'.
++-------+

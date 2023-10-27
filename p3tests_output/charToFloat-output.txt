@@ -1,0 +1,11 @@
+class x {
+	void main() {
+		char x;
+		float y;
+		y = x;
+	}
+}
+
++-------+
+| ERROR | lhs type='FLOAT' does not match rhs type='CHAR'.
++-------+

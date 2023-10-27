@@ -1,0 +1,8 @@
+class x {
+	int y;
+	char y;
+}
+
++-------+
+| ERROR | id='y' is already defined.
++-------+

@@ -1,0 +1,9 @@
+class x {
+	int main() {
+		int y = 'c';
+	}
+}
+
++-------+
+| ERROR | lhs type='INT' does not match rhs type='CHAR'.
++-------+

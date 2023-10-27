@@ -1,0 +1,9 @@
+class x {
+	int foo() {
+		return 1.0;
+	}
+}
+
++-------+
+| ERROR | return type='FLOAT' does not match expected type='INT' for function='foo'.
++-------+

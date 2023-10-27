@@ -1,0 +1,10 @@
+class x {
+	void main() {
+		bool x;
+		x--;
+	}
+}
+
++-------+
+| ERROR | type='INT --OR-- FLOAT' expected for unary arithmetic operators.
++-------+

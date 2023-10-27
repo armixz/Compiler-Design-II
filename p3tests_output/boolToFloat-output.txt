@@ -1,0 +1,9 @@
+class x {
+	void main() {
+		float y = false;
+	}
+}
+
++-------+
+| ERROR | lhs type='FLOAT' does not match rhs type='BOOL'.
++-------+

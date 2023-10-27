@@ -1,0 +1,9 @@
+class x {
+	void main() {
+		nonExistFoo();
+	}
+}
+
++-------+
+| ERROR | nonExistFoo not defined in the SymbolTable.
++-------+

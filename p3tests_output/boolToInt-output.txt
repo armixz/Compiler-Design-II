@@ -1,0 +1,9 @@
+class x {
+	void main() {
+		int y = false;
+	}
+}
+
++-------+
+| ERROR | lhs type='INT' does not match rhs type='BOOL'.
++-------+
